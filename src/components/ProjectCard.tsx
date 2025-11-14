@@ -96,12 +96,12 @@ export function ProjectCard({ project, onStatusChange }: ProjectCardProps) {
     >
       <div className="flex flex-col md:flex-row md:items-start">
         {/* Placeholder rectangle */}
-        <div className={`w-[calc(100%-2rem)] md:w-[84px] md:flex-shrink-0 h-[84px] md:h-16 ${colorConfig.bg} rounded-[16px] mx-4 mt-4 md:ml-4 md:mr-0 md:mt-6 flex items-center justify-center`}>
+        <div className={`w-[calc(100%-2rem)] md:w-[84px] md:flex-shrink-0 h-[84px] md:h-16 ${colorConfig.bg} rounded-[16px] mx-4 mt-4 md:ml-4 md:mr-0 md:mt-4 flex items-center justify-center`}>
           <IconComponent className={`h-6 w-6 ${colorConfig.iconColor}`} />
         </div>
         
         <div className="flex-1 min-w-0">
-      <CardHeader className="pb-4 pl-4 pr-4 pt-2 md:pl-4 md:pr-6 md:pt-6 md:pb-6 space-y-0">
+      <CardHeader className="pb-4 pl-4 pr-4 pt-2 md:pl-4 md:pr-6 md:pt-4 md:pb-4 space-y-0">
         <div className="flex flex-row items-center justify-between gap-4">
           <div className="flex-1 min-w-0 flex flex-col items-start gap-1">
             <h3 className="text-lg font-semibold text-card-foreground">
